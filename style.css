@@ -1,11 +1,23 @@
 :root {
-    --white-color: #FFFFFF;
-    --brownorange-color: #B47B48;
-    --main-extralight-font: 'Inter', sans-serif;
-    --main-light-font: 'Inter', sans-serif;
-    --main-medium-font: 'Inter', sans-serif;
-    --main-extrabold-font:'Inter', sans-serif;
-    --main-regular-font: 'Inter', sans-serif;
-    --second-regular-fontfont: 'Italiana', sans-serif;
+  --white-color: #ffffff;
+  --brownorange-color: #b47b48;
+  --main-extralight-font: "Inter", sans-serif;
+  --main-light-font: "Inter", sans-serif;
+  --main-medium-font: "Inter", sans-serif;
+  --main-extrabold-font: "Inter", sans-serif;
+  --main-regular-font: "Inter", sans-serif;
+  --second-regular-font: "Italiana", sans-serif;
 }
 
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  font-family: var(--main-extralight-font);
+  color: var(--white-color);
+}
+
+.main-section {
+  background-image: url(images/bakery-1.jpg);
+}
