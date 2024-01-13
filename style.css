@@ -11,6 +11,9 @@
 
 .header-list {
   display: flex;
+  gap: 31px;
+  font-size: 24px;
+  padding-left: 0;
 }
 
 .header-item {
@@ -18,6 +21,54 @@
   color: var(--white-color);
 }
 
-.main-section {
+.container {
   background-image: url(images/bakery-1.jpg);
+  background-repeat: no-repeat:
+}
+
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  outline: red solid;
+}
+
+.header-item {
+  list-style: none;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+.main-h1 {
+  font-family: var(--main-extralight-font);
+  font-size: 70px;
+  font-weight: 200;
+  color: var(--white-color);
+}
+.main-pharograph {
+  color: var(--white-color);
+  font-family: var(--main-light-font);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 570px;
+  height: 200px;
+}
+.btn-shop {
+  width: 207px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 17px;
+background: var(--brownorange-color);
+border: none;
+color: var(--white-color);
+font-family: var(--main-light-font);
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
 }
