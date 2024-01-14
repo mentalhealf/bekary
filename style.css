@@ -23,7 +23,7 @@
 
 .container {
   /* background-image: url(images/bakery-1.jpg); */
-  background-repeat: no-repeat:
+  
 }
 
 
@@ -71,4 +71,10 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 
+}
+
+
+.main-section {
+  background-image: url("images/bakery-1.jpg");
+  background-repeat: no-repeat;
 }
