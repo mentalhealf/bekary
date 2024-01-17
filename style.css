@@ -3,7 +3,8 @@
   --brownorange-color: #b47b48;
   --grey-black-color: #202023;
   --orange-color: #c85312;
-  --grey-color: #F2F2F24D;
+  --grey-color: #f2f2f24d;
+  --lightgrey-color: #d9d9d9;
   --main-extralight-font: "Inter", sans-serif;
   --main-light-font: "Inter", sans-serif;
   --main-medium-font: "Inter", sans-serif;
@@ -185,6 +186,14 @@
 .Quality-pharograph {
   color: var(--white-color);
   background-color: var(--grey-color);
-  display: column;
+}
 
+.TRADITIONAL-h3 {
+  width: 735px;
+  color: var(--lightgrey-color);
+  font-family:var(--second-regular-font);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
