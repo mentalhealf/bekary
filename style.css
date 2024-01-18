@@ -13,6 +13,7 @@
   --second-regular-font: "Italiana", sans-serif;
   --main-thin-font: "Inter", sans-serif;
   --main-black-font: "Inter", sans-serif;
+  --main-bold: "Inter", sans-serif;
 }
 
 .header-list {
@@ -191,9 +192,23 @@
 .TRADITIONAL-h3 {
   width: 735px;
   color: var(--lightgrey-color);
-  font-family:var(--second-regular-font);
+  font-family: var(--second-regular-font);
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.TRADITIONAL-p {
+  /* color: var(--white-color); */
+  font-family: var(--main-bold);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 251px;
+}
+
+.TRADITIONAL-list {
+  list-style: none;
 }
