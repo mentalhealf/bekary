@@ -200,7 +200,7 @@
 }
 
 .TRADITIONAL-p {
-  /* color: var(--white-color); */
+  color: var(--white-color);
   font-family: var(--main-bold);
   font-size: 24px;
   font-style: normal;
@@ -211,4 +211,9 @@
 
 .TRADITIONAL-list {
   list-style: none;
+}
+
+
+.TRADITIONAL-section {
+  background-image: url(images/traditional-back.jpg);
 }
