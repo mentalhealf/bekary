@@ -5,6 +5,7 @@
   --orange-color: #c85312;
   --grey-color: #f2f2f24d;
   --lightgrey-color: #d9d9d9;
+  --hover-color: #EBAD51;
   --main-extralight-font: "Inter", sans-serif;
   --main-light-font: "Inter", sans-serif;
   --main-medium-font: "Inter", sans-serif;
@@ -34,6 +35,8 @@
   outline: red solid;
 }
 
+.mini-wrap {}
+
 .header-item {
   list-style: none;
   color: var(--white-color);
@@ -55,6 +58,7 @@
   font-weight: 200;
   color: var(--white-color);
 }
+
 .main-pharograph {
   color: var(--white-color);
   font-family: var(--main-light-font);
@@ -65,6 +69,7 @@
   width: 570px;
   height: 200px;
 }
+
 .btn-shop {
   width: 207px;
   height: 57px;
@@ -83,11 +88,15 @@
 .main-section {
   background-image: url("images/bakery-1.jpg");
   background-repeat: no-repeat;
+  margin-top: -48px;
+
 }
 
 .main-list {
   display: flex;
-  gap: 120px;
+  gap: 104px;
+  padding-left: 7px;
+  margin: 0 auto;
 }
 
 .btn-main {
@@ -120,6 +129,8 @@
 
 .menu-section {
   background-color: var(--grey-black-color);
+  margin-top: -48px;
+
 }
 
 .menu-h2 {
@@ -176,17 +187,58 @@
 
 .main-item {
   list-style: none;
-  background-color: var(--grey-black-color);
+  background: var(--grey-black-color);
+  /* background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 80.32%); */
+  width: 310px;
+  height: 225px;
+  flex-shrink: 0;
+  outline: blue 2px solid;
+  display: flex;
+
+}
+
+.extra {
+  width: 193px;
+  height: 193px;
+}
+
+.main-item:hover {
+  background-color: var(--hover-color);
 }
 
 .Quality-section {
   background-image: url(images/quality-back.jpg);
   /* background-repeat: no-repeat; */
+  margin-top: -48px;
+
+}
+
+.Quality-img {
+  width: 334px;
+  height: 332px;
+  flex-shrink: 0;
+}
+
+.Quality-list {
+  list-style: none;
+  display: flex;
+  gap: 100.83px;
+  margin: 0 auto;
+}
+
+.Quality-item {
+  outline: green 2px solid;
+  width: 198px;
 }
 
 .Quality-pharograph {
   color: var(--white-color);
   background-color: var(--grey-color);
+  width: 197.532px;
+  height: 291.475px;
+  background: rgba(242, 242, 242, 0.30);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px);
 }
 
 .TRADITIONAL-h3 {
@@ -211,9 +263,37 @@
 
 .TRADITIONAL-list {
   list-style: none;
+  display: flex;
+  gap: 161.83px;
 }
+
+
 
 
 .TRADITIONAL-section {
   background-image: url(images/traditional-back.jpg);
+  background-repeat: no-repeat;
+  margin-top: -48px;
+}
+
+
+.TRADITIONAL-img {
+  width: 218.247px;
+  flex-shrink: 0;
+}
+
+
+.where-section {
+  background-color: var(--grey-black-color);
+  margin-top: -48px;
+}
+
+
+.where-h3 {
+  color: var(--white-color);
+  font-family: var(--second-regular-font);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

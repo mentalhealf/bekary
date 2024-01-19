@@ -27,14 +27,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
       <header>
         <nav class="header-nav">
           <ul class="header-list">
-            <li class="header-item extra"><a class="header-link" href="#">About us</a></li>
+            <li class="header-item"><a class="header-link" href="#">About us</a></li>
             <li class="header-item"><a class="header-link" href="#">Delivery</a></li>
             <li class="header-item"><a class="header-link" href="#">Menu</a></li>
             <li class="header-item"><a class="header-link" href="#">Contacts</a></li>
@@ -65,20 +65,27 @@
         <button type="button" class="btn-shop">SHOP NOW</button>
         <ul class="main-list">
           <li class="main-item"><img src="images/cookie.png" alt="cookie" />
-            <span class="span-item">$8.00(kg)</span>
-            <p class="p-item">American Cockie</p>
-            <button type="button" class="btn-main">BUY</button>
+            <div class="mini-wrap">
+              <span class="span-item">$8.00(kg)</span>
+              <p class="p-item">American Cockie</p>
+              <button type="button" class="btn-main">BUY</button>
+            </div>
           </li>
           <li class="main-item"><img src="images/croason.png" alt="croason" />
-            <span class="span-item">$4.00</span>
-            <p class="p-item">Crushed with
-              chockolate</p>
-            <button type="button" class="btn-main">BUY</button>
+            <div class="mini-wrap">
+              <span class="span-item">$4.00</span>
+              <p class="p-item">Crushed with
+                chockolate</p>
+              <button type="button" class="btn-main">BUY</button>
+            </div>
+
           </li>
-          <li class="main-item"><img src="images/blueberry-pie.png" alt="croason" />
-            <span class="span-item">$4.00</span>
-            <p class="p-item">Blackberry pie</p>
-            <button type="button" class="btn-main">BUY</button>
+          <li class="main-item"><img class="extra" src="images/blueberry-pie.png" alt="blueberry-pie" />
+            <div class="mini-wrap">
+              <span class="span-item">For piece $4.00</span>
+              <p class="p-item">Blackberry pie</p>
+              <button type="button" class="btn-main">BUY</button>
+            </div>
           </li>
         </ul>
     </section>
@@ -109,7 +116,7 @@
           <button class="btn-menu" type="button">order</button>
         </li>
         <li class="menu-item">
-          <img src="images/bread.png" alt="bred">
+          <img class="Quality-img" src="images/bread.png" alt="bred">
           <h3 class="menu-h3">
             Breads
           </h3>
@@ -126,31 +133,31 @@
           <img src="images/bread.png" alt="bread">
           <p class="Quality-pharograph">
             1.Flour with fresh wheat
-2.New drozzhi
-3.Fresh eggs
-4.Water from the well
+            2.New drozzhi
+            3.Fresh eggs
+            4.Water from the well
 
           </p>
         </li>
         <li class="Quality-item">
-          <img src="images/cookie-2.png" alt="cookie-2">
+          <img class="Quality-img" src="images/cookie-2.png" alt="cookie-2">
           <p class="Quality-pharograph">
             1.Flour with fresh wheat
-2.New drozzhi
-3.Fresh eggs
-4.Water from the well
+            2.New drozzhi
+            3.Fresh eggs
+            4.Water from the well
 
           </p>
         </li>
         <li class="Quality-item">
-          <img src="images/cherry-pie.png" alt="pie-cherry">
+          <img class="Quality-img" src="images/cherry-pie.png" alt="pie-cherry">
           <p class="Quality-pharograph">
             1.Flour with fresh wheat
-2.New drozzhi
-3.Fresh eggs
-4.Water from the well
-        </p>
-      </li>
+            2.New drozzhi
+            3.Fresh eggs
+            4.Water from the well
+          </p>
+        </li>
       </ul>
     </section>
     <section class="TRADITIONAL-section">
@@ -159,19 +166,29 @@
       </h3>
       <ul class="TRADITIONAL-list">
         <li>
-          <img src="" alt="">
+          <img class="TRADITIONAL-img" src="images/1.png" alt="">
           <p class="TRADITIONAL-p">Order at home</p>
         </li>
         <li>
-          <img src="" alt="">
+          <img class="TRADITIONAL-img" src="images/3.png" alt="">
           <p class="TRADITIONAL-p">Fresh food</p>
         </li>
         <li>
-          <img src="" alt="">
+          <img class="TRADITIONAL-img" src="images/2.png" alt="">
           <p class="TRADITIONAL-p">Speed Delivery 24 h</p>
         </li>
-        
+
       </ul>
+    </section>
+    <section class="where-section">
+      <h3 class="where-h3">
+        Where
+      </h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19691.55831153986!2d0.9076735942731863!3d51.907595604066046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d905eb0cd52e1f%3A0x91ab4e7b708e4dd!2sRai&#39;s%20Bakery!5e0!3m2!1sen!2suk!4v1705685569805!5m2!1sen!2suk"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </section>
     </main>
   </div>
