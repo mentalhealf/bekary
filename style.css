@@ -27,6 +27,7 @@
 .header-item {
   font-family: var(--main-extralight-font);
   color: var(--white-color);
+  list-style: none;
 }
 
 .container {
@@ -36,11 +37,6 @@
 }
 
 .mini-wrap {}
-
-.header-item {
-  list-style: none;
-  color: var(--white-color);
-}
 
 .header-link {
   text-decoration: none;
@@ -83,6 +79,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  cursor: pointer;
 }
 
 .main-section {
@@ -111,6 +108,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  cursor: pointer;
 }
 
 .Quality-h2 {
@@ -165,6 +163,7 @@
   font-weight: 800;
   line-height: normal;
   border: none;
+  cursor: pointer;
 }
 
 .span-item {
