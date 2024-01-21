@@ -7,6 +7,7 @@
   <title>bekary</title>
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,8 +39,8 @@
 </head>
 
 <body>
+  <section class="main-section">
   <div class="container">
-    <section class="main-section">
       <header>
         <nav class="header-nav">
           <ul class="header-list">
@@ -64,23 +65,22 @@
         </p>
         <button type="button" class="btn-shop">SHOP NOW</button>
         <ul class="main-list">
-          <li class="main-item"><img src="images/cookie.png" alt="cookie" />
+          <li class="main-item"><img class="main-image" src="images/cookie.png" alt="cookie" /><div>
             <div class="mini-wrap">
               <span class="span-item">$8.00(kg)</span>
               <p class="p-item">American Cockie</p>
               <button type="button" class="btn-main">BUY</button>
             </div>
           </li>
-          <li class="main-item"><img src="images/croason.png" alt="croason" />
+          <li class="main-item"><img  class="main-image" src="images/croason.png" alt="croason" />
             <div class="mini-wrap">
               <span class="span-item">$4.00</span>
               <p class="p-item">Crushed with
                 chockolate</p>
               <button type="button" class="btn-main">BUY</button>
             </div>
-
           </li>
-          <li class="main-item"><img class="extra" src="images/blueberry-pie.png" alt="blueberry-pie" />
+          <li class="main-item"><img class="extra"  class="main-image" src="images/blueberry-pie.png" alt="blueberry-pie" />
             <div class="mini-wrap">
               <span class="span-item">For piece $4.00</span>
               <p class="p-item">Blackberry pie</p>
@@ -88,6 +88,7 @@
             </div>
           </li>
         </ul>
+      </div>
     </section>
     <section class="menu-section">
       <h2 class="menu-h2">
@@ -124,11 +125,11 @@
         </li>
       </ul>
     </section>
-    <section class="Quality-section">
+    <section  class="Quality-section">
       <h2 class="Quality-h2">
         Quality our bekary
       </h2>
-      <ul class="Quality-list">
+      <ul data-aos="fade-up" data-aos-duration="3000" class="Quality-list">
         <li class="Quality-item">
           <img src="images/bread.png" alt="bread">
           <p class="Quality-pharograph">
@@ -184,27 +185,59 @@
       <h3 class="where-h3">
         Where
       </h3>
-      <ul>
-        <li>
-          <h4 class="">How</h4>
+      <ul class="where-list">
+        <li class="where-item">
+          <h4 class="where-h4">How</h4>
         </li>
-        <li>
-          <h4 class="">When</h4>
+        <li class="where-item">
+          <h4 class="where-h4">When</h4>
         </li>
-        <li>
-          <a href="tel:+380551231312" >+38 055 123 13 12</a>
+        <li class="where-item">
+          <a href="tel:+380551231312">+38 055 123 13 12</a>
         </li>
-        <li><p>with 8:30 to 20:30</p></li>
+        <li class="where-item">
+          <p>with 8:30 to 20:30</p>
+        </li>
+        <li class="where-item">
+          <p>Tik tok.:@TR.Bekary</p>
+        </li>
+        <li class="where-item">
+          <p>Inst:@TR.Bekary</p>
+        </li>
       </ul>
 
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19691.55831153986!2d0.9076735942731863!3d51.907595604066046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d905eb0cd52e1f%3A0x91ab4e7b708e4dd!2sRai&#39;s%20Bakery!5e0!3m2!1sen!2suk!4v1705685569805!5m2!1sen!2suk"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        width="535.213" height=" 535.213" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </section>
     </main>
+    <footer class="footer">
+      <h4 class="footer-h4">TRADITIONAL ARTISAX BAKERY</h4>
+      <h6 class="footer-h6">
+        We want be helthy
+      </h6>
+      <ul class="footer-list">
+        <li class="footer-item">About</li>
+        <li class="footer-item">Movement</li>
+        <li class="footer-item">Company</li>
+        <li class="footer-item">About us
+          Features
+          News & Blog </li>
+        <li class="footer-item">What Eatly
+          Support Us</li>
+        <li class="footer-item">Why Eatly
+          Capital
+          Securaty</li>
+      </ul>
+      <p class="footer-p">@2022 Eatly.All right riserved.</p>
+    </footer>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
