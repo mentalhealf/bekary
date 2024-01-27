@@ -84,6 +84,11 @@
   cursor: pointer;
 }
 
+
+.btn-shop:hover {
+  
+}
+
 .main-section {
   background-image: url("images/bakery-1.jpg");
   background-repeat: no-repeat;
