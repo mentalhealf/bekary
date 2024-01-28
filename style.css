@@ -85,9 +85,7 @@
 }
 
 
-.btn-shop:hover {
-  
-}
+.btn-shop:hover {}
 
 .main-section {
   background-image: url("images/bakery-1.jpg");
@@ -145,7 +143,6 @@
 
 
 .menu-item {
-  outline: greenyellow 2px solid;
   width: 328px;
   height: 237px;
   margin-top: -116px;
@@ -158,26 +155,39 @@
 .klipartz {
   margin-left: 100px;
   margin-top: -45.001px;
+  width: 246px;
+  height: 171px;
+  flex-shrink: 0;
 }
 
 
 .bagel {
   margin-top: -120px;
+  width: 249px;
+  height: 185px;
+  flex-shrink: 0;
 }
 
 
 .chader {
   margin-left: 164px;
   margin-top: -155px;
+  width: 165px;
+  height: 128px;
+  flex-shrink: 0;
 }
 
 .cherry-pie {
-  width: 200px;
+  width: 261.566px;
+  height: 260px;
+  flex-shrink: 0;
 }
 
 .kapckake {
-  width: 90px;
-  margin-left: -190px;
+  width: 93.193px;
+  height: 116.687px;
+  flex-shrink: 0;
+  margin-left: -236px;
   margin-bottom: 26px;
 }
 
@@ -208,6 +218,7 @@
 .menu-section {
   background-color: var(--grey-black-color);
   margin-top: -53px;
+  height: 100%;
 }
 
 .menu-h2 {
@@ -218,6 +229,8 @@
   font-weight: 100;
   line-height: normal;
   text-align: center;
+  margin-top: 53.1px;
+  margin-bottom: 140.2px;
 }
 
 .menu-h3 {
@@ -301,9 +314,10 @@
 .Quality-list {
   list-style: none;
   display: flex;
-  gap: 100.83px;
-  margin: 0 auto;
-  width: 998px;
+  gap: 73.83px;
+  /* margin: 0 auto; */
+  width: 1150px;
+  padding-left: 0;
 }
 
 .Quality-item {
@@ -366,6 +380,7 @@
   display: flex;
   gap: 161.83px;
   width: 998px;
+  margin-top: 144.9999999909999px;
 }
 
 .TRADITIONAL-section {
@@ -373,8 +388,8 @@
     url(images/traditional-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
   margin-top: -48px;
-  padding-left: 252px;
 }
 
 .TRADITIONAL-img {
@@ -440,7 +455,7 @@
 .footer {
   background-color: var(--grey-black-color);
   /* display: flex; */
-  margin-top: -53px;
+  margin-top: -54px;
 }
 
 .footer-h4 {
