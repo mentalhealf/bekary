@@ -215,6 +215,9 @@
   height: 229px;
 }
 
+.menu-item {
+}
+
 .menu-section {
   background-color: var(--grey-black-color);
   margin-top: -53px;
