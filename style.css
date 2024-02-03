@@ -95,6 +95,14 @@
   margin: 0 auto;
 }
 
+.main-mark {
+  color: var(--white-color);
+  border: var(--white-color) 1px solid;
+  border-radius: 50%;
+  width: 21px;
+  
+}
+
 .main-list {
   display: flex;
   gap: 104px;
@@ -102,9 +110,9 @@
   margin: 0 auto;
 }
 
-/* .main-image {
+.main-image {
   
-} */
+}
 
 .btn-main {
   background-color: var(--orange-color);
@@ -189,6 +197,11 @@
   flex-shrink: 0;
   margin-left: -236px;
   margin-bottom: 26px;
+}
+
+
+.croason {
+
 }
 
 
@@ -336,8 +349,6 @@
 
 .Quality-3 {
   margin-top: 68px;
-
-
 }
 
 .Quality-pharograph {
