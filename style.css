@@ -609,6 +609,7 @@ ul {
 .a-lol {
   text-decoration: none;
   color: var(--white-color);
+  color: #000;
 }
 
 /* animations */
